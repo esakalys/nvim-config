@@ -19,8 +19,6 @@ return require("packer").startup(function(use)
 	use("folke/ts-comments.nvim")
 	use("folke/todo-comments.nvim")
 
-	use("github/copilot.vim")
-
 	use("ThePrimeagen/harpoon")
 	use({ "catppuccin/nvim", as = "catppuccin" })
 	use("nvim-treesitter/nvim-treesitter", { run = ":TSUpdate" })
@@ -28,7 +26,6 @@ return require("packer").startup(function(use)
 		"kevinhwang91/nvim-ufo",
 		requires = "kevinhwang91/promise-async",
 	})
-	use("windwp/nvim-ts-autotag")
 	use({
 		"VonHeikemen/lsp-zero.nvim",
 		branch = "v3.x",
